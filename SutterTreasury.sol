@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: None
 pragma solidity ^0.8.8;
 
-import "@openzeppelin/contracts/finance/PaymentSplitter.sol";
+import "./PaymentSplitter.sol";
 
 contract SutterTreasury is PaymentSplitter {
   uint256 private _numberOfPayees;
