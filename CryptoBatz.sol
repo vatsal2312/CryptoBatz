@@ -65,11 +65,11 @@ pragma solidity ^0.8.8;
 //..........................................................*@@+,,:*#S;...................................................
 //...........................................................?@?,...::....................................................
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
-import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
-import "@openzeppelin/contracts/utils/math/SafeCast.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "./Ownable.sol";
+import "./Address.sol";
+import "./ECDSA.sol";
+import "./SafeCast.sol";
+import "./ERC721.sol";
 import "./SutterTreasury.sol";
 import "./ERC2981.sol";
 
